@@ -7,6 +7,7 @@ from shop.serializers import CartProductSerializer
 from .models import Product
 from .models import Cart
 
+
 class ProductViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
